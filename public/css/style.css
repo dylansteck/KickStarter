@@ -1,0 +1,263 @@
+*{
+	font-family: 'Oswald', sans-serif;
+}
+::-webkit-input-placeholder {
+    color:#0099cc;
+}
+
+nav{
+	top:-55px;
+	background-color:black;
+}
+h2{
+	background:transparent;
+	margin-right:-1em;
+}
+img {
+	background:transparent;
+}
+
+#user{
+		background-color:#8383f2;
+}
+
+/* #navbar-header {
+	width:1000px;
+	height:100px;
+	margin-left: 0em;
+	margin-top:-4em;
+} */
+input {
+	  border-bottom:1px solid #999;
+  padding:10px;
+	width:800px;
+  min-height: 75px;
+  box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+	outline:none;
+}
+
+.twitstream{
+	background-color:blue;
+}
+#formuser{
+left:10em;	
+}
+#tweet {
+	 padding: 10px 40px; 
+	border-radius: 25px;
+	background-color:red;
+}
+ div .tweet {
+	align:right;
+	margin-left:4em;
+	margin-top:0em;
+}
+.atname {
+	color:grey;
+	margin-left:7em;
+	margin-top:-2.7em;
+}
+
+.twitstream
+/* form{
+		padding-left:8em;
+	outline:none;
+}
+
+ul {
+	padding: 10px 40px; 
+	border-radius: 25px;
+	width:30em;
+} */
+
+
+/*Use to change placehoder color*/
+
+:-moz-placeholder {
+    color:#8383f2;
+}
+::-moz-placeholder {
+    color:#8383f2;
+}
+:-ms-input-placeholder {
+    color:#8383f2;
+}
+
+/*---------------------------------------------------
+  3.1 Topbar
+---------------------------------------------------*/
+
+#section-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  overflow: visible;
+  font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  border-bottom: 2px solid;
+  border-color: rgb(232,235,237);*/
+}
+
+/*Makes it so when you hover over the icon stays white*/
+#section-topbar a {
+  color: #fff;
+}
+
+#section-topbar ul#nav > li {
+  display: block;
+    padding: 0;
+}
+
+
+#section-topbar ul#nav a {
+  display: block;
+  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+}
+
+  #section-topbar ul#nav .menu-item-left a:hover {
+    background: #222;
+    text-decoration: none;
+  }
+
+  #section-topbar ul#nav .active a {
+    background: #44bbaa;
+  }
+
+    #section-topbar ul#nav .active a:hover {
+      background: #44bbaa;
+    }
+#section-topbar i {
+  font-size: 25px;
+}
+
+/*Center Brand on NavBar*/
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+/* ----------------------------------
+Css Twitter Tweet Box
+------------------------------------ */
+body {
+ background:rgb(245,248,250);
+ position: relative;
+ top: 55px;
+ /*backgrnd-image: url("../img/bg.jpg");*/
+}
+
+/* ----------------------------------
+Container Border
+------------------------------------ */
+.notification-box {
+  border:1px solid;
+  border-color: #e2e2e2;
+  border-radius:5px;
+  background:#fff;
+  position:relative;
+  margin:20px 0 0 0;
+  padding-bottom:10px;
+}
+
+/* ----------------------------------
+notification form, input message
+------------------------------------ */
+.notification-box form {
+  background-color: rgb(229,242,247);
+  border-radius:3px;
+  height:50px;
+}
+.notification-box form .inp-text {
+  border-radius:3px;
+  border:1px solid #999;
+  margin:7px 5px 7px 6px;
+  color : #d1d1d1; 
+
+  padding:7px;
+  box-shadow:0 1px 2px rgba(0, 0, 0, 0.2) inset, 0 0 4px rgba(0, 0, 0, 0.3) inset, 0 0 1px #fff;
+  width:85%;
+  outline:0;
+}
+.notification-box form .tweet-btn {
+  background:-webkit-linear-gradient(#28adef, #0088cc 80%, #037fbc);
+  border:1px solid #007cba;
+  border-radius:3px;
+  font-size:13px;
+  color:#fff;
+  font-weight:bold;
+  height:34px;
+  width:50px;
+  box-shadow:0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+/* ----------------------------------
+twitter list tweet news
+------------------------------------ */
+.list {
+  border-bottom:1px solid #999;
+  padding:10px;
+	width:800px;
+  min-height: 75px;
+  box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.list2 {
+  border-bottom:1px solid #999;
+  padding:10px;
+	width:200px;
+  min-height: 75px;
+  box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.list .avatar {
+  float:left;
+  margin-right:10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.list .content {
+  font-size:12px;
+  margin-right:20px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+.list .time {
+  position:absolute;
+  right:0;
+  top:0;
+  margin:10px 10px 0 0;
+  font-style:normal;
+  font-size:11px;
+  color:#aaa;
+}
+.list:last-child {
+  box-shadow:none;
+  border:0;
+}
+
+/* unvisited link */
+.list a:link {
+    color: #000;
+}
+
+/* visited link */
+.list a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+.list a:hover {
+    color: #d1d1d1;
+}
+
+/*Side Bar*/
+.sidebar_right{
+  position: relative;
+  left: 0px;
+}
