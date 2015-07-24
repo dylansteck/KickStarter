@@ -14,4 +14,9 @@ class ApplicationController < Sinatra::Base
 	get'/' do
 		erb :index
   end
+	
+	get '/projects' do
+		erb :projects
+	end
+	
 end
