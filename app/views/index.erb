@@ -14,10 +14,17 @@
 		<center>
 		<nav class="navbar navbar-default">
 			<a href='/'><img src="images/flstarter_logo.png" width=650px; height:400px;></a>
-			<a href="/login"><h2>Login</h2> </a>
+			<a href="/projects"><h2>View Projects</h2> </a>
   <div class="container-fluid">
   </div>
 </nav>
+			
+			<form action="/login"  id="formlogin" name="formlogin" method="post" accept-charset="utf-8">
+				<input class="us3r" type="text" name="username" placeholder="Username" require>
+				<input class="passw0rd" type="password" name="password" placeholder="Password" require>
+				<br>
+			<button type="submit" form="formlogin" value="Submit">Submit</button> 
+						</form>
 			
 	</body>
 </html>

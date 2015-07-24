@@ -15,8 +15,8 @@ class ApplicationController < Sinatra::Base
 		erb :index
   end
 	
-	get '/login' do
-		erb :login
+	get '/projects' do
+		erb :projects
 	end
 	
 end
