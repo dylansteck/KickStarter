@@ -1,8 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-			<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    
 		<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -10,16 +13,49 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<title>Kickstarter</title>
 	</head>
+  
 	<body>
 		<center>
 		<nav class="navbar navbar-default">
-			<a href='/'><img src="images/flstarter_logo.png" width=650px; height:400px;></a>
-			<a href="/projects"><h2>View Projects</h2> </a>
+			<img src="kickstarter.png">
   <div class="container-fluid">
+    
+    
+    
   </div>
 </nav>
-			
-			
-			
+      
+      <!-- Form Mixin-->
+<!-- Form Module-->
+<div class="module form-module">
+  <div class="toggle"><i class="fa fa-times fa-pencil"></i>
+    <div class="tooltip">Click Me</div>
+  </div>
+  <div class="form">
+    <h2>Login to your account</h2>
+    <form action="/results" method="POST">
+      <input type="text" placeholder="Username"/>
+      <input type="password" placeholder="Password"/>
+      <button>LOGIN</button>
+      
+    </form>
+  </div>
+  <div class="form">
+    <h2>Create an account</h2>
+    <form action="/signup" method="POST" ... onsubmit="return checkForm(this);">
+      <input type="text" name = "username" placeholder="Username"/>
+      <input type="password" name ="pwd1" placeholder="Password"/>
+      <input type="password" name ="pwd2" placeholder="Confirm Password"/>
+      <input type="email" name = "email" placeholder="Email Address"/>
+      <button>REGISTER</button>
+        
+    </form>
+  </div>
+  <div class="cta"><a href="">Forgot your password?</a></div>
+</div>
+      
+      <!--   JAVASCRIPT -->
+    <script src="js/login.js"></script>
+    <script type="text/javascript">
 	</body>
 </html>
