@@ -1,0 +1,42 @@
+*{
+	font-family: 'Oswald', sans-serif;
+}
+::-webkit-input-placeholder {
+    color:#0099cc;
+}
+img {
+	margin-left:-50em;
+}
+nav{
+	top:-25px;
+}
+.back-to-top {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+color: #ffffff;
+background-color: #ff9000;
+}
+ 
+.back-to-top i {
+  font-size: 60px;
+}
+.atname {
+	color:grey;
+	margin-left:7em;
+	margin-top:-2.7em;
+}
+.list {
+  border-bottom:1px solid #999;
+  padding:10px;
+	width:800px;
+  min-height: 75px;
+  box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+}
