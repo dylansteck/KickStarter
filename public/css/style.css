@@ -27,6 +27,7 @@ img {
 	margin-left: 0em;
 	margin-top:-4em;
 } */
+
 input {
 	  border-bottom:1px solid #999;
   padding:10px;
@@ -43,7 +44,7 @@ input {
 left:10em;	
 }
 #tweet {
-	 padding: 10px 40px; 
+	padding: 10px 40px; 
 	border-radius: 25px;
 	background-color:red;
 }
@@ -100,22 +101,21 @@ ul {
 }
 
 /*Makes it so when you hover over the icon stays white*/
-#section-topbar a {
-  color: #fff;
-}
+  #section-topbar a {
+    color: #fff;
+  }
 
-#section-topbar ul#nav > li {
-  display: block;
-    padding: 0;
-}
+  #section-topbar ul#nav > li {
+    display: block;
+      padding: 0;
+  }
 
-
-#section-topbar ul#nav a {
-  display: block;
-  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  padding: 18px 20px 18px 20px;
-}
+  #section-topbar ul#nav a {
+    display: block;
+    font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 18px 20px 18px 20px;
+  }
 
   #section-topbar ul#nav .menu-item-left a:hover {
     background: #222;
