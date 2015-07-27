@@ -8,15 +8,14 @@ class ApplicationController < Sinatra::Base
 	
 	configure do
   enable :sessions
-#    set :session_secret, "fwitter"
+		set :session_secret, "flatstarter"
 	end
 	
 	get'/' do
 		erb :index
-  end
-	
+  end	
 	get '/projects' do
 		erb :projects
-	end
+  end
 	
 end
