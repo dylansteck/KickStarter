@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-require 'sinatra'
+require './config/environment'
 require_relative '../models/user'
 require_relative '../models/project'
 
@@ -48,13 +47,3 @@ class ApplicationController < Sinatra::Base
 		erb :project_page
 	end
 end
-
-
-
-=======
-require_relative "../../config/environment"
-
-class ApplicationController < Sinatra::Base
-
-end
->>>>>>> 61e0a86e1f5d537f92dcdfb6cfa2b90afc9518a3
