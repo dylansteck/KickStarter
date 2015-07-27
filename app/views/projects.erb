@@ -19,11 +19,15 @@
   </div>
 </nav>
 			
-			<div class="projects">
-				<%# @projects.reverse_each do |project|%>
-				<%#= project.name %>
-				<%# end %>
-			</div>
-			
+
+				<br>
+			<% @projects.reverse_each do |project|%>
+				<div class="list" align="left"><div class="atname">
+					<%=project.name%>
+					<%=project.info%>
+					<%=project.moneygoal%>
+					<%=project.moneyraised%>
+					<%=project.deadline%></div> 
+					<%end %>
 	</body>
 </html>
